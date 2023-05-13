@@ -1,7 +1,7 @@
 
 function App() {
   return (
-  <h1>cocchautos</h1>
+  <h1 className="font-bold">cocchautos</h1>
   )
 }
 
