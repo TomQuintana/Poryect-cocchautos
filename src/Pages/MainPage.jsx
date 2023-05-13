@@ -11,7 +11,7 @@ const MainPage = () => {
             Cocchautos
           </h1>  
         </div>
-        <div className="flex justify-end gap-1 mt-3 font-bold hover:border-gray-300">
+        <div className="flex justify-end gap-1 mt-3 font-bold hover:border-gray-300 md:text-lg">
           <Link 
             className="block text-center my-5 ml-2 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
             to="/">Home Page
