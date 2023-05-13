@@ -16,7 +16,6 @@ const HomePage = () => {
           loop
         /> 
       </div>
-
     </div>
   )
 }
