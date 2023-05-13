@@ -1,7 +1,20 @@
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import MainPage from './Pages/MainPage'
+import HomePage from './Pages/HomePage'
+import Contact from './Pages/Contact'
+import Servicios from './Pages/Servicios'
 
 function App() {
   return (
-  <h1 className="font-bold">cocchautos</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<MainPage/>}>
+          <Route index element={<HomePage/>}/>
+          <Route path='contact' element={<Contact/>} />
+          <Route path='servicios' element={<Servicios/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
