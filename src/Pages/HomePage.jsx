@@ -9,20 +9,20 @@ import instagram from '../assets/img/instagram96.png'
 const HomePage = () => {
   return (
     <>
-      <div className='flex justify-center'>
-        <div className='mx-auto shadow rounded-xl w-3/6 pb-4 pt-4'>
+      <div className='md:flex md:justify-center'>
+        <div className='md:mx-auto shadow rounded-xl w-3/6 pb-4 pt-4'>
           <h1
             className='font-mono text-3xl text-center'
           >Expertos en Detailing</h1>
           <br/>
           <p
-            className='font-mono text-center text-xl'
+            className='font-mono md:text-center md:text-xl'
           >Todo lo que estas buscando
             para mejorar la estética de tu vehículo.</p>
         </div>
       </div>
       <br/>
-      <div className='mt-10 flex justify-center gap-2'>
+      <div className='mt-10 md:flex md:justify-center gap-2'>
         <div className='mt-1 '>
           <h1
             className='text-center text-xl font-mono'
@@ -46,7 +46,7 @@ const HomePage = () => {
         <h1
           className='text-center font-mono text-2xl'
         >Contamos con los siguientes servicios entre otros</h1>
-        <div className='mt-5 flex justify-between container mx-auto'>
+        <div className='mt-5 md:flex md:justify-between md:container md:mx-auto'>
           <div className='w-96 h-60 shadow rounded-xl p-5'>
             <h1
               className='font-mono'

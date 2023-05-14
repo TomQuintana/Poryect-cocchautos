@@ -1,13 +1,12 @@
 import { Outlet } from "react-router-dom"
 import { Link } from "react-router-dom"
-import whatsapp from '../assets/img/whatsapp.png'
 import whatsapp96 from '../assets/img/whatsapp96.png'
 import instagram from '../assets/img/instagram96.png'
 
 const MainPage = () => {
   return (
      <>
-      <main className='bg-indigo-600 w-full h-32'>
+      <main className='bg-indigo-600 md:w-full h-32'>
         <div>
           <h1 className="font-bold text-8xl pt-2 text-white text-center"
           >
