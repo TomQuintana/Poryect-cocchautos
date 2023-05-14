@@ -6,7 +6,7 @@ import instagram from '../assets/img/instagram96.png'
 const MainPage = () => {
   return (
      <>
-      <main className='bg-indigo-600 md:w-full md:h-32'>
+      <main className='bg-indigo-600 md:w-full h-32'>
         <div>
           <h1 className="font-bold md:text-8xl pt-2 text-white text-center"
           >
