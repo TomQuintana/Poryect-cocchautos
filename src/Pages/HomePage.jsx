@@ -4,6 +4,7 @@ import antes from '../assets/img/antes.jpeg'
 import despues from '../assets/img/despues.jpeg'
 import { Link } from "react-router-dom"
 import whatsapp from '../assets/img/whatsapp.png'
+import instagram from '../assets/img/instagram96.png'
 
 const HomePage = () => {
   return (
@@ -21,6 +22,24 @@ const HomePage = () => {
         </div>
       </div>
       <br/>
+      <div className='mt-10 flex justify-center gap-2'>
+        <div className='mt-1 '>
+          <h1
+            className='text-center text-xl font-mono'
+          >Para ver nuestros trabrajos previos ve a {''}
+          </h1> 
+        </div>
+        <div>
+          <a 
+            className=''
+            href="https://instagram.com/cocchautos.ok?igshid=MzRlODBiNWFlZA==">
+            <img 
+              className="rounded hover:bg-gray-200 h-10 w-10"
+              src={ instagram } 
+              alt="Github"/>
+          </a>
+        </div>
+      </div>
       <br/>
       <br/>
       <div>
