@@ -5,12 +5,15 @@ import despues from '../assets/img/despues.jpeg'
 import { Link } from "react-router-dom"
 import whatsapp from '../assets/img/whatsapp.png'
 import instagram from '../assets/img/instagram96.png'
+import servicioDerecha from '../assets/img/servicioCoche96.png'
+import limpiezaBrillantado from '../assets/img/limpiezaAutos64.png'
+import asiento from '../assets/img/asiento100.png'
 
 const HomePage = () => {
   return (
     <>
       <div className='flex justify-center'>
-        <div className='md:mx-auto shadow rounded-xl w-3/6 pb-4 pt-4'>
+        <div className='md:mx-auto shadow rounded-xl w-96 md:w-3/6 pb-4 pt-4'>
           <h1
             className='font-mono text-3xl text-center'
           >Expertos en Detailing</h1>
@@ -21,65 +24,75 @@ const HomePage = () => {
             para mejorar la estética de tu vehículo.</p>
         </div>
       </div>
-      <br/>
-      <div className='mt-10 flex justify-center gap-2'>
-        <div className='mt-1 '>
+      <div className='mt-10 md:flex md:justify-center gap-2'>
+        <div className='md:mt-1'>
           <h1
             className='text-center text-xl font-mono'
           >Para ver nuestros trabrajos previos ve a {''}
           </h1> 
         </div>
-        <div>
+        <div className='flex justify-center'>
           <a 
             className=''
             href="https://instagram.com/cocchautos.ok?igshid=MzRlODBiNWFlZA==">
             <img 
-              className="rounded hover:bg-gray-200 h-10 w-10"
+              className="rounded hover:bg-gray-200 h-10 w-10 mt-2"
               src={ instagram } 
               alt="Github"/>
           </a>
         </div>
       </div>
       <br/>
-      <br/>
       <div>
         <h1
           className='text-center font-mono text-2xl'
         >Contamos con los siguientes servicios entre otros</h1>
-        <div className='mt-5 flex justify-between md:container md:mx-auto'>
-          <div className='w-96 h-60 shadow rounded-xl p-5'>
-            <h1
-              className='font-mono'
-            >Tratamientos acrílicos, cerámicos y de vidrio líquido</h1>
-            <img 
-              className='w-40'
-              alt="null" src="https://russcar.com/wp-content/uploads/2021/01/003-automobile-red.svg"/>
+        <div className='mt-5 md:flex md:justify-between md:container md:mx-auto'>
+          <div className='flex justify-center'>
+            <div className='w-96 h-60 shadow rounded-xl p-5 items-center mb-5'>
+              <h1
+                className='font-mono'
+              >Tratamientos acrílicos, cerámicos y de vidrio líquido</h1>
+              <div className='flex justify-center'>
+                <img 
+                  className='h-32 md:w-40 items-center'
+                  alt="null" src={servicioDerecha}/>
+              </div>
+               </div>  
           </div>
-          <div className='w-96 h-60 shadow rounded-xl p-5'>
-            <h1
-              className='font-mono'
-            >Tratamiento de interiores de vehículos (tapizados)</h1>
-            <img 
-              className='w-40'
-              alt="null" src="https://russcar.com/wp-content/uploads/2021/01/009-car-1-red.svg"/>
+          <div className='flex justify-center'>
+            <div className='w-96 h-60 shadow rounded-xl p-5 items-center mb-5'>
+              <h1
+                className='font-mono'
+              >Pulido de Opticas</h1>
+              <div className='flex justify-center'>
+                <img 
+                  className='h-28 md:w-40 items-center'
+                  alt="null" src={limpiezaBrillantado}/>
+              </div>
+            </div>  
           </div>
-          <div className='w-96 h-60 shadow rounded-xl p-5'>
-            <h1
-              className='font-mono'
-            >Pulido de Opticas</h1>
-            <img 
-              className='w-40'
-              alt="null" src="https://russcar.com/wp-content/uploads/2021/01/022-protection-red.svg"/>
+          <div className='flex justify-center'>
+            <div className='w-96 h-60 shadow rounded-xl p-5 items-center mb-5'>
+              <h1
+                className='font-mono'
+              >Tratamiento de interiores de vehículos (tapizados)</h1>
+              <div className='flex justify-center'>
+                <img 
+                  className='h-28 md:w-40 items-center'
+                  alt="null" src={asiento}/>
+              </div>
+            </div>  
           </div>
         </div>
-        <div className='mt-10 flex justify-center gap-2'>
+        <div className='mt-4 md:flex md:justify-center gap-2'>
           <div>
             <h1
               className='text-center text-xl font-mono'
             >Para mas informacion puedes ponerte en contacto con nosotros {''}
             </h1> 
           </div>
-          <div>
+          <div className='flex justify-center mt-2'>
             <a 
               className='mr-2 '
               href="https://api.whatsapp.com/send?phone=1168386465">
