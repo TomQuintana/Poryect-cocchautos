@@ -22,7 +22,7 @@ const HomePage = () => {
         </div>
       </div>
       <br/>
-      <div className='mt-10 md:flex md:justify-center gap-2'>
+      <div className='mt-10 flex justify-center gap-2'>
         <div className='mt-1 '>
           <h1
             className='text-center text-xl font-mono'
@@ -46,7 +46,7 @@ const HomePage = () => {
         <h1
           className='text-center font-mono text-2xl'
         >Contamos con los siguientes servicios entre otros</h1>
-        <div className='mt-5 md:flex md:justify-between md:container md:mx-auto'>
+        <div className='mt-5 flex justify-between md:container md:mx-auto'>
           <div className='w-96 h-60 shadow rounded-xl p-5'>
             <h1
               className='font-mono'
