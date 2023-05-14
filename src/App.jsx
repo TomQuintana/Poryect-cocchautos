@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import MainPage from './Pages/MainPage'
 import HomePage from './Pages/HomePage'
-import Contact from './Pages/Contact'
+import Turnos from './Pages/Turnos'
 import Servicios from './Pages/Servicios'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<MainPage/>}>
           <Route index element={<HomePage/>}/>
-          <Route path='contact' element={<Contact/>} />
+          <Route path='contacto' element={<Turnos/>} />
           <Route path='servicios' element={<Servicios/>} />
         </Route>
       </Routes>
