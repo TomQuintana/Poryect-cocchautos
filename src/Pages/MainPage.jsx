@@ -1,6 +1,8 @@
 import { Outlet } from "react-router-dom"
 import { Link } from "react-router-dom"
 import whatsapp from '../assets/img/whatsapp.png'
+import whatsapp96 from '../assets/img/whatsapp96.png'
+import instagram from '../assets/img/instagram96.png'
 
 const MainPage = () => {
   return (
@@ -20,8 +22,16 @@ const MainPage = () => {
               className='mr-2 '
               href="https://api.whatsapp.com/send?phone=1168386465">
               <img 
-                className="rounded hover:bg-gray-200"
-                src={ whatsapp } 
+                className="rounded hover:bg-gray-200 w-10 h-10"
+                src={ whatsapp96 } 
+                alt="Github"/>
+            </a>
+            <a 
+              className='mr-2 '
+              href="https://instagram.com/cocchautos.ok?igshid=MzRlODBiNWFlZA==">
+              <img 
+                className="rounded hover:bg-gray-200 w-10 h-10"
+                src={ instagram } 
                 alt="Github"/>
             </a>
           </div>
