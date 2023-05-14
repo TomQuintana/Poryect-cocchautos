@@ -9,7 +9,7 @@ import instagram from '../assets/img/instagram96.png'
 const HomePage = () => {
   return (
     <>
-      <div className='md:flex md:justify-center'>
+      <div className='flex justify-center'>
         <div className='md:mx-auto shadow rounded-xl w-3/6 pb-4 pt-4'>
           <h1
             className='font-mono text-3xl text-center'
