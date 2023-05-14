@@ -6,16 +6,16 @@ import instagram from '../assets/img/instagram96.png'
 const MainPage = () => {
   return (
      <>
-      <main className='bg-indigo-600 md:w-full h-32'>
+      <main className='bg-indigo-600 md:w-full h-10 md:h-32'>
         <div>
-          <h1 className="font-bold md:text-8xl pt-2 text-white text-center"
+          <h1 className="font-bold  md:text-8xl pt-2 text-white text-center"
           >
             Cocchautos
           </h1>  
         </div>
         <div className="flex justify-between">
           <div 
-            className="mt-6 p-2 flex justify-start hover:border-gray-300 md:text-lg"
+            className="md:mt-6 p-2 flex justify-start hover:border-gray-300 md:text-lg"
           >
             <a 
               className='mr-2 '
@@ -34,9 +34,9 @@ const MainPage = () => {
                 alt="Github"/>
             </a>
           </div>
-          <div className="flex justify-end gap-1 md:mt-3 font-bold hover:border-gray-300 md:text-lg">
+          <div className="flex justify-end md:gap-1 md:mt-3 font-bold hover:border-gray-300 text-sm md:text-lg">
             <Link 
-              className="block text-center my-5 ml-2 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
+              className="block text-center my-5 ml-2 text-gray-500 md:px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
               to="/">Home Page
             </Link>  
             <Link 
