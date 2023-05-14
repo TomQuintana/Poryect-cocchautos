@@ -6,7 +6,7 @@ import instagram from '../assets/img/instagram96.png'
 const MainPage = () => {
   return (
      <>
-      <main className='bg-indigo-600 md:w-full h-32'>
+      <main className='bg-indigo-600 md:w-full h-31'>
         <div>
           <h1 className="font-bold md:text-8xl pt-2 text-white text-center"
           >
@@ -34,7 +34,7 @@ const MainPage = () => {
                 alt="Github"/>
             </a>
           </div>
-          <div className="flex justify-end gap-1 mt-3 font-bold hover:border-gray-300 md:text-lg">
+          <div className="flex justify-end gap-1 md:mt-3 font-bold hover:border-gray-300 md:text-lg">
             <Link 
               className="block text-center my-5 ml-2 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
               to="/">Home Page
