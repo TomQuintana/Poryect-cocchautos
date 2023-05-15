@@ -1,8 +1,3 @@
-import ReactPlayer from 'react-player'
-import product from '../assets/img/videoProducto.17.10.mp4'
-import antes from '../assets/img/antes.jpeg'
-import despues from '../assets/img/despues.jpeg'
-import { Link } from "react-router-dom"
 import whatsapp96 from '../assets/img/whatsapp96.png'
 import instagram from '../assets/img/instagram96.png'
 import servicioDerecha from '../assets/img/servicioCoche96.png'
@@ -25,21 +20,22 @@ const HomePage = () => {
         </div>
       </div>
       <div className='mt-10 md:flex md:justify-center gap-2'>
-        <div className='md:mt-1'>
-          <h1
-            className='text-center text-xl font-mono'
-          >Para ver nuestros trabrajos previos ve a {''}
-          </h1> 
-        </div>
-        <div className='flex justify-center'>
-          <a 
-            className=''
-            href="https://instagram.com/cocchautos.ok?igshid=MzRlODBiNWFlZA==">
-            <img 
-              className="rounded hover:bg-gray-200 h-10 w-10 mt-2"
-              src={ instagram } 
-              alt="Github"/>
-          </a>
+        <div>
+          <div className='md:mt-1'>
+            <h1
+              className='text-center text-xl font-mono'
+            >Para ver nuestros trabrajos previos ve a {''}
+            </h1> 
+          </div>
+          <div className='flex justify-center'>
+            <a 
+              href="https://instagram.com/cocchautos.ok?igshid=MzRlODBiNWFlZA==">
+              <img 
+                className="rounded hover:bg-gray-200 h-10 w-10 mt-2"
+                src={ instagram } 
+                alt="Github"/>
+            </a>
+          </div>
         </div>
       </div>
       <br/>
@@ -87,20 +83,22 @@ const HomePage = () => {
         </div>
         <div className='mt-4 md:flex md:justify-center gap-2'>
           <div>
-            <h1
-              className='text-center text-xl font-mono'
-            >Para reservar un turno puedes ponerte en contacto con nosotros {''}
-            </h1> 
-          </div>
-          <div className='flex justify-center mt-2 mb-10'>
-            <a 
-              className='mr-2'
-              href="https://api.whatsapp.com/send?phone=1168386465">
-              <img 
-                className="rounded hover:bg-gray-200 mb-3 h-10 w-10"
-                src={ whatsapp96 } 
-                alt="Github"/>
-            </a>
+            <div>
+              <h1
+                className='text-center text-xl font-mono'
+              >Para reservar un turno puedes ponerte en contacto con nosotros {''}
+              </h1> 
+            </div>
+            <div className='mt-2 flex justify-center gap-2'>
+                <a 
+                  className=''
+                  href="https://api.whatsapp.com/send?phone=1157824382">
+                  <img 
+                    className="rounded hover:bg-gray-200 mb-3 h-10 w-10"
+                    src={ whatsapp96 } 
+                    alt="Github"/>
+                </a>
+            </div>  
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const MainPage = () => {
   return (
      <>
       <main className='md:w-full h-12 md:h-32'>
-        <div className="shadow rounded-2xl mt-2">
+        <div className="bg-gray-100 shadow rounded-2xl mt-2">
           <div className="flex justify-center">
             <div>
               <h1 className="uppercase font-semibold text-3xl md:text-8xl text-center">
@@ -25,7 +25,7 @@ const MainPage = () => {
           >
             <a 
               className='mr-2 '
-              href="https://api.whatsapp.com/send?phone=1168386465">
+              href="https://api.whatsapp.com/send?phone=1157824382">
               <img 
                 className="rounded hover:bg-gray-200 w-10 h-10"
                 src={ whatsapp96 } 
