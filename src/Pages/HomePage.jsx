@@ -3,7 +3,7 @@ import product from '../assets/img/videoProducto.17.10.mp4'
 import antes from '../assets/img/antes.jpeg'
 import despues from '../assets/img/despues.jpeg'
 import { Link } from "react-router-dom"
-import whatsapp from '../assets/img/whatsapp.png'
+import whatsapp96 from '../assets/img/whatsapp96.png'
 import instagram from '../assets/img/instagram96.png'
 import servicioDerecha from '../assets/img/servicioCoche96.png'
 import limpiezaBrillantado from '../assets/img/limpiezaAutos64.png'
@@ -67,7 +67,7 @@ const HomePage = () => {
               >Pulido de Opticas</h1>
               <div className='flex justify-center'>
                 <img 
-                  className='h-28 md:w-40 items-center'
+                  className='h-28  md:w-32 items-center'
                   alt="null" src={limpiezaBrillantado}/>
               </div>
             </div>  
@@ -79,7 +79,7 @@ const HomePage = () => {
               >Tratamiento de interiores de vehículos (tapizados)</h1>
               <div className='flex justify-center'>
                 <img 
-                  className='h-28 md:w-40 items-center'
+                  className='h-28 md:w-28 items-center'
                   alt="null" src={asiento}/>
               </div>
             </div>  
@@ -92,13 +92,13 @@ const HomePage = () => {
             >Para mas informacion puedes ponerte en contacto con nosotros {''}
             </h1> 
           </div>
-          <div className='flex justify-center mt-2'>
+          <div className='flex justify-center mt-2 mb-10'>
             <a 
-              className='mr-2 '
+              className='mr-2'
               href="https://api.whatsapp.com/send?phone=1168386465">
               <img 
-                className="rounded hover:bg-gray-200"
-                src={ whatsapp } 
+                className="rounded hover:bg-gray-200 mb-3 h-10 w-10"
+                src={ whatsapp96 } 
                 alt="Github"/>
             </a>
           </div>
