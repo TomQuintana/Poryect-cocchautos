@@ -43,7 +43,7 @@ const Servicios = () => {
             >Pulido de Opticas</h1>
             <div className='flex justify-center'>
               <img 
-                className='w-24 '
+                className='w-24 mt-8'
                 alt="null" src={limpiezaOpticas}/>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Servicios = () => {
             >Pulido en tres Pasos</h1>
             <div className='flex justify-center'>
               <img 
-                className='w-28'
+                className='w-28 mt-10 mr-5'
                 alt="null" src={pulido}/>  
             </div>
           </div>  
@@ -82,7 +82,7 @@ const Servicios = () => {
             </h1>
             <div className='flex justify-center'>
               <img 
-                className='w-32'
+                className='w-32 mt-8'
                 alt="null" src={limpiezaAuto}/>
             </div>
           </div>  

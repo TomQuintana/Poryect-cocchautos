@@ -7,7 +7,7 @@ const MainPage = () => {
   return (
      <>
       <main className='md:w-full h-12 md:h-32'>
-        <div className="bg-gray-100 shadow rounded-2xl mt-2">
+        <div className="bg-gray-50 shadow rounded-2xl mt-2">
           <div className="flex justify-center">
             <div>
               <h1 className="uppercase font-semibold text-3xl md:text-8xl text-center">

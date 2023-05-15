@@ -63,7 +63,7 @@ const HomePage = () => {
               >Pulido de Opticas</h1>
               <div className='flex justify-center'>
                 <img 
-                  className='w-24 mt-6'
+                  className='w-24 mt-10'
                   alt="null" src={limpiezaBrillantado}/>
               </div>
             </div>  
@@ -91,7 +91,6 @@ const HomePage = () => {
             </div>
             <div className='mt-2 flex justify-center gap-2'>
                 <a 
-                  className=''
                   href="https://api.whatsapp.com/send?phone=1157824382">
                   <img 
                     className="rounded hover:bg-gray-200 mb-3 h-10 w-10"
