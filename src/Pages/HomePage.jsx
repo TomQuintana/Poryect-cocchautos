@@ -49,37 +49,37 @@ const HomePage = () => {
         >Contamos con los siguientes servicios entre otros</h1>
         <div className='mt-5 md:flex md:justify-between md:container md:mx-auto'>
           <div className='flex justify-center'>
-            <div className='w-96 h-60 shadow rounded-xl p-5 items-center mb-5'>
+            <div className='w-96 md:h-60 shadow rounded-xl p-5 items-center mb-6'>
               <h1
-                className='font-mono'
+                className='font-mono text-center'
               >Tratamientos acrílicos, cerámicos y de vidrio líquido</h1>
               <div className='flex justify-center'>
                 <img 
-                  className='h-32 md:w-40 items-center'
+                  className='h-32 md:w-40 '
                   alt="null" src={servicioDerecha}/>
               </div>
                </div>  
           </div>
           <div className='flex justify-center'>
-            <div className='w-96 h-60 shadow rounded-xl p-5 items-center mb-5'>
+            <div className='w-96 md:h-60 shadow rounded-xl p-5 items-center mb-6'>
               <h1
-                className='font-mono'
+                className='font-mono text-center'
               >Pulido de Opticas</h1>
               <div className='flex justify-center'>
                 <img 
-                  className='h-28  md:w-32 items-center'
+                  className='w-24 mt-6'
                   alt="null" src={limpiezaBrillantado}/>
               </div>
             </div>  
           </div>
           <div className='flex justify-center'>
-            <div className='w-96 h-60 shadow rounded-xl p-5 items-center mb-5'>
+            <div className='w-96 h-60 shadow rounded-xl p-5 items-center mb-6'>
               <h1
-                className='font-mono'
+                className='font-mono text-center'
               >Tratamiento de interiores de vehículos (tapizados)</h1>
               <div className='flex justify-center'>
                 <img 
-                  className='h-28 md:w-28 items-center'
+                  className='md:h-28 md:w-28 mt-6 items-center'
                   alt="null" src={asiento}/>
               </div>
             </div>  

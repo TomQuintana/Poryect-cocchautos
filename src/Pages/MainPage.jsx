@@ -6,12 +6,18 @@ import instagram from '../assets/img/instagram96.png'
 const MainPage = () => {
   return (
      <>
-      <main className='bg-indigo-600 md:w-full h-12 md:h-32'>
-        <div>
-          <h1 className="font-sans text-3xl md:text-8xl pt-2 text-white text-center"
-          >
-            Cocchautos
-          </h1>  
+      <main className='md:w-full h-12 md:h-32'>
+        <div className="shadow rounded-2xl mt-2">
+          <div className="flex justify-center">
+            <div>
+              <h1 className="uppercase font-semibold text-3xl md:text-8xl text-center">
+                cocch autos
+              </h1>  
+              <p
+                className="text-center font-mono text-xl md:text-3xl"
+              >Car Deltailing</p>
+            </div>
+          </div>
         </div>
         <div className="flex justify-between">
           <div 
