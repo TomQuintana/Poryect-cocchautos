@@ -45,7 +45,7 @@ const MainPage = () => {
             </Link>  
             <Link 
               className="block text-center my-5 ml-2 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
-              to="/servicios">Servicio
+              to="/servicios">Servicios
             </Link>  
           </div>  
         </div>
