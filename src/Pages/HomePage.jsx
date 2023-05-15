@@ -89,7 +89,7 @@ const HomePage = () => {
           <div>
             <h1
               className='text-center text-xl font-mono'
-            >Para mas informacion puedes ponerte en contacto con nosotros {''}
+            >Para reservar un turno puedes ponerte en contacto con nosotros {''}
             </h1> 
           </div>
           <div className='flex justify-center mt-2 mb-10'>
